@@ -32,7 +32,7 @@ public class SFTPClientTest {
 
     @Test
     public void exist() {
-        boolean exist = sftpClient.exist("/home/ec2-user/work/files/csv/");
+        boolean exist = sftpClient.exist("/home/hduser/work/files/csv/");
         assert(!exist);
     }
 
